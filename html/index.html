@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Réservez vos vols pas chers</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- menu slide -->
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Nos vols</a></li>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <!-- background video -->
+            <video autoplay muted loop src="../video/clouds.mp4" ></video>
+            <!-- barre navigation -->
+            <div class="menu-social-links-container">
+                
+                <nav class="nav-header">
+                    
+                    <ul>
+                    <li class="social-links__item"><a href="index.html">Air'éservations ✈️</a></li>
+                    </ul>
+                </nav>
+                
+                <nav class="nav-hedear-link">
+                    <ul>
+                    <li class="menu__item"><a href="#destination">S'enregister</a></li>
+                    <li class="menu__item"><a href="#">Se connecter</a></li>
+                    <li class="menu__item"><a href="#">Aide <i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                    
+                    </ul>
+                    <div id="menu-burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </nav>
+            </div>
+            <!-- titre de la page -->
+            <h1 class="titre">AiR'éservations</h1>
+
+            <!-- slogan -->
+            <h3 class="slogan">La tête dans les ☁️☁️☁️ </h3>
+
+            <!-- Formulaire de recherche -->
+            <div class="search">
+                <form method="POST">
+                <div class="form-group">
+                    <label for="provenance">Ville de départ</label>
+                    <input type="text"name="provenance" id="provenance" placeholder="Paris, Barcelone...">
+
+                    <label for="arrivee">Ville d'arrivée</label>
+                    <input type="text"name="arrivee" id="arrivee" placeholder="Londres, Tunis...">
+                </div>
+
+                <div class="form-group">
+                    <label for="depart">Date de départ</label>
+                    <input type="date"name="depart" id="depart" value="30/04/2021">
+
+                    <label for="retour">Date de retour</label>
+                    <input type="date"name="retour" id="retour" value="02/06/2021">
+                </div>
+
+                <div class="form-group">
+                <label for="adultes">Nombre d'adultes</label>
+                <select name="adultes" id="adultes">
+                    <option selected="selected">1 adulte</option>
+                    <option>2 adultes</option>
+                    <option>3 adultes</option>
+                    <option>4 adultes</option>
+                    <option>5 adultes</option>
+                    <option>6 adultes</option>
+                    <option>7 adultes</option>
+                </select>
+
+                <label for="enfants">Nombre d'enfants</label>
+                <select name="enfants" id="enfants">
+                    <option selected="selected">0 enfant</option>
+                    <option>1 enfant</option>
+                    <option>2 enfants</option>
+                    <option>3 enfants</option>
+                    <option>4 enfants</option>
+                    <option>5 enfants</option>
+                    <option>6 enfants</option>
+                    <option>7 enfants</option>
+                </select>
+
+                <label for="type">Catégorie</label>
+                <select name="type" id="type">
+                    <option selected="selected">Classe économique</option>
+                    <option>Classe affaire</option>
+                </select>
+                </div>
+
+                <div class="button">
+                <button  type="submit">Lancer la recherche</button>
+                </div>
+            </form>
+            </div>
+            
+        </header>
+        
+        <!-- SECTION DESTINATIONS -->
+        <section id="destination">
+
+            <h3>Quelques idées de destinations 🧳😊</h3>
+            <div class="destinations-group">
+                <div class="destination-item barcelone">
+                    
+                    <div class="overlay">
+                    <span class="ville">Barcelone</span>
+                    <span class="prix">Dès 50€</span>
+                    </div>
+                </div>
+
+                <div class="destination-item londres">
+                   
+                    <div class="overlay">
+                    <span class="ville">Londres</span>
+                    <span class="prix">Dès 130€</span>
+                    </div>
+                </div>
+
+                <div class="destination-item tunis">
+                    
+                    <div class="overlay">
+                    <span class="ville">Tunis</span>
+                    <span class="prix">Dès 110€</span>
+                    </div>
+                </div>
+
+                <div class="destination-item paris">
+                    
+                    <div class="overlay">
+                    <span class="ville">Paris</span>
+                    <span class="prix">Dès 145€</span>
+                    </div>
+                </div>
+
+                <div class="destination-item dubai">
+                    
+                    <div class="overlay">
+                    <span class="ville">Dubai</span>
+                    <span class="prix">Dès 310€</span>
+                    </div>
+                </div>
+
+                <div class="destination-item manilla">
+                    
+                    <div class="overlay">
+                    <span class="ville">Manilla</span>
+                    <span class="prix">Dès 710€</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+
+        <section class="services" id="services">
+            <div class="service-item">
+                <i class="fa fa-car delivery-icon" aria-hidden="true"></i>
+                <p class="service-details">Location de voiture</p>
+            </div>
+            <div class="service-item">
+                <i class="fa fa-bed delivery-icon" aria-hidden="true"></i>
+                <p class="service-details">Réservation de chambres</p>
+            </div>
+            <div class="service-item">
+                <i class="fa fa-briefcase delivery-icon" aria-hidden="true"></i>
+                <p class="service-details">Business</p>
+            </div>
+        </section> 
+        <!-- section bagages -->
+        <section id="bagages">
+            <h2 class="section-title">Bagages à main</h2> 
+            <div class="new reglementation_bagages">
+                <div class="overlay">
+                    <span class="loi">⚠️Nouvelle politique relative aux bagages à main⚠️</span>
+                    <a href="#"><span class="detail">en savoir plus</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- stage peur -->
+
+        <section id="stage">
+            <h2 class="section-title">Apprivoiser votre peur</h2> 
+            <div class="offre avion">
+                <div class="overlay">
+                    <span class="message">Cours Innovant pour affronter votre peur</span>
+                    <a href="#"><span class="more">en savoir plus</span></a>
+                </div>
+            </div>
+        </section>
+
+         <!-- bannière -->
+
+         <section id="banniere">
+            <div class="information">
+               
+                 <div class="story">
+                    <h4>A propos d'Air'éservations</h4>
+                   <ul>
+                       <li> <a href="">Ventes d’espaces publicitaires</a></li>
+                       <li><a href="">Carrières</a></li>
+                       <li> <a href="">Informations sur la compagnie</a></li>
+                       <li><a href="">Unicef</a></li>
+                   </ul>
+                  </div>
+                  <div class="story">
+                    <h4>Service clientèle</h4>
+                   <ul>
+                       <li><a href="">La Charte du passager</a></li>
+                       <li><a href="">Aide</a></li>
+                       <li><a href="">Plan du site</a></li>
+                       <li><a href="">Aide spéciale</a></li>
+                       <li><a href="">Etat du trafic</a></li>
+                   </ul>
+                  </div>
+                  <div class="story">
+                    <h4>Termes et conditions</h4>
+                   <ul>
+                       <li><a href="">Politique d'utilisation acceptable</a></li>
+                       <li><a href="">Suppléments et charges</a></li>
+                       <li><a href="">Conditions Générales</a></li>
+                       <li><a href="">Informations Juridiques</a></li>
+                       <li><a href="">Politique en matière de cookies</a></li>
+                   </ul>
+                  </div>
+                  <div class="story">
+                    <h4>Infos de vol</h4>
+                   <ul>
+                       <li><a href="">Gérer les réservations</a></li>
+                       <li><a href="">Durabilité</a></li>
+                       <li><a href="">Guide voyage</a></li>
+                       <li><a href="">Durée des vols</a></li>
+                   </ul>
+                  </div>
+            </div>
+            <div class="social-media">
+                <i class="fab fa-facebook-f" style="color: grey;"></i>
+                <i class="fab fa-twitter" style="color: grey;"></i>
+                <i class="fab fa-instagram" style="color: grey;"></i>
+             </div>
+        </section>
+
+        <footer>
+            <hr>
+            <p>&copy; 2021 - air'éservations - Tout droits réservés</p>
+        </footer>
+        <script src="../js/app.js"></script>
+    </body>
+</html>
