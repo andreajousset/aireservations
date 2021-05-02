@@ -1,0 +1,64 @@
+/* offre stage */
+
+section#stage
+{
+    margin: 6% 20% 5% 20%;
+    color: #11698e;
+}
+
+div.avion
+{
+    background: url(../images/plane.jpg);
+    
+}
+
+div.offre
+{
+    color: rgb(255, 247, 247);
+    width: 758px;
+    height: 200px;
+    position: relative;
+    flex: 1 0 28%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.274);
+}
+
+span.message
+{
+    color: white;
+    background-color: orange;
+    position: relative;
+    top:130px;
+    float: right;
+    padding: 10px;
+    font-size: 18px;
+}
+span.more
+{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.section-title
+{
+    position: relative;
+}
+
+.section-title::before
+{
+    content: "";
+    position: absolute;
+    background-color: #16c79a;
+    width: 100px;
+    height: 6px;
+    bottom: 0;
+}
+.overlay a
+{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,63 @@
+/* bagages */
+
+section#bagages
+{
+    margin: 6% 20% 5% 20%;
+    color: #11698e;
+}
+div.new{
+     background: url(../images/bagages.jpg);
+}
+div.reglementation_bagages
+{
+    color: rgb(255, 247, 247);
+    width: 758px;
+    height: 200px;
+    position: relative;
+    flex: 1 0 28%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 758px 270px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.274);
+}
+
+span.loi
+{
+    color: white;
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    top:50px;
+    float: right;
+    padding: 30px;
+    font-size: 18px;
+}
+span.loi:hover{
+    background-color: rgb(177, 33, 33);
+}
+span.detail
+{
+    position: relative;
+    left: 660px;
+    top: 140px;
+    
+}
+
+.section-title
+{
+    position: relative;
+}
+
+.section-title::before
+{
+    content: "";
+    position: absolute;
+    background-color: #16c79a;
+    width: 100px;
+    height: 6px;
+    bottom: 0;
+}
+.overlay a
+{
+    text-decoration: none;
+    color: white;
+}
